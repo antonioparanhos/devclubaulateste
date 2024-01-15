@@ -1,0 +1,97 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(247, 247, 247);
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    margin-left: 5px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 5px;
+    line-height: 101px;
+}
+p{
+    line-height: 25px;
+}
+header{
+    cursor: pointer;
+    margin-top: 35px;
+    margin-left: 25px;
+       }
+.link-header{
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 35px;
+    line-height: 30px;
+    color: rgb(9, 15, 66);
+    }
+.logo-sccp{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
+.video-timao{
+   margin-left: 350px;
+   margin-top: 15px;
+}
+section{
+    display: inline-block;
+}
+main{
+    display: inline-block;
+   
+}
+.cadastrar{
+    background: rgb(255, 238, 0);
+    border-radius: 35px;
+    width: 120px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.button-explorar{
+    background: rgb(255, 251, 0);
+    border-radius: 35px;
+    width: 120px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    color: rgb(0, 0, 0); 
+    margin-top: 15px;
+}
+h4{
+    margin-left: 160px;
+    font-weight: 700;
+    font-size: 22px;
+    color: blue;
+}
+
+@media screen and (max-width: 980px) {
+    .menus{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    img{
+        position: static;
+        max-width: 90%;
+    }    
+
+    .video-timao{
+        max-width: 90%;
+             
+    }
+}
